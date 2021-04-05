@@ -30,9 +30,9 @@ img {
   box-sizing: border-box;
   margin: 0 auto;
   padding-top: 54px;
-  min-width: 395px;
-  min-height: 667px;
-  max-width: 760px;
+  min-width: 375px;
+  max-width: 800px;
+  padding-bottom: 75px;
   font-family: 'Inter', sans-serif;
   color: #202047;
   background-image: url(../images/pattern-bg.svg),
