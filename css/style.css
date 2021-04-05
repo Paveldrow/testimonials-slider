@@ -62,11 +62,13 @@ img {
   text-align: center;
   margin: 0;
   padding: 0;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 @media (min-width: 1460px) {
   .comment__item {
-    margin: auto;
+    padding-left: 165px;
   }
 }
 
@@ -87,10 +89,12 @@ img {
     right: 165px;
     width: 540px;
     height: 540px;
+    z-index: 0;
   }
 }
 
 .comment__text {
+  position: relative;
   margin: 0;
   margin-bottom: 19px;
   padding-top: 25px;
@@ -113,6 +117,7 @@ img {
     line-height: 44px;
     background-size: 120px 100px;
     background-position: 95px 0;
+    z-index: 2;
   }
 }
 
@@ -139,6 +144,14 @@ img {
   font-size: 15px;
   line-height: 20px;
   color: #b9b9ce;
+}
+
+@media (min-width: 1460px) {
+  .comment__post {
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 38px;
+  }
 }
 
 .slider-navigation {
