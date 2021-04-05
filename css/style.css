@@ -109,6 +109,8 @@ img {
 
 @media (min-width: 1460px) {
   .comment__text {
+    text-align: left;
+
     width: 635px;
     margin-bottom: 32px;
     padding-top: 64px;
@@ -117,7 +119,6 @@ img {
     line-height: 44px;
     background-size: 120px 100px;
     background-position: 95px 0;
-    z-index: 2;
   }
 }
 
@@ -131,7 +132,6 @@ img {
 @media (min-width: 1460px) {
   .comment__name {
     display: flex;
-    justify-content: center;
     width: 635px;
     font-size: 20px;
     line-height: 38px;
